@@ -1,0 +1,12 @@
+.menuBackground {
+    background: url('images/logo.png') no-repeat center fixed !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.imageDiv {
+    width: 100%;
+    margin-bottom: 3px;
+    height: 15em !important;
+}
