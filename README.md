@@ -5,3 +5,4 @@ The App is an hybrid app built upon the Angular.js & Ionic UI framework. The det
 1. Download the zip file or save to your GIT client. 
 2. Install Intel XDK and click open an existing project then browse for the file Reggae360.xdk file within the Reggae360 folder.
 3. Create a Git branch and start coding
+4. make your pull request and we as a group will assess the change then utlimately commit.
