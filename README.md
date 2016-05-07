@@ -16,7 +16,8 @@ The App uses a MVC pattern
 
 Description of files and folder withing th Reggae360/.. 
 
-1. Contains a list of XML configuration files for the different platforms. Eg, intelxdk.config.android.xml is comparible to the typical android manifest in an native android application. 
+1. Contains a list of XML configuration files for the different platforms. Eg, intelxdk.config.android.xml is comparible to the typical android manifest in an native android application. Package.json contains the cofigurations for gulp, bower etc.
+
 
 2. Bower (node.js) package manager. Bower offers a generic, unopinionated solution to the problem of front-end package management, while exposing the package dependency model via an API that can be consumed by a more opinionated build stack
 
@@ -24,7 +25,11 @@ Description of files and folder withing th Reggae360/..
         $ npm install -g bower
       (Bower depends on Node.js and npm, therefore ensure that those are already installed see https://nodejs.org/en/ for more details. Also make sure that git is installed as some bower packages require it to be fetched and   installed.)
       
-    - Some packages are already extracted within project directory, but will only work properly if bower has been installed globally and the versions are compatible (bower verson 1.7.9 currently runs on my system, so it would be a good place to start there)
+    - Some bower packages are already extracted within project directory, but will only work properly if bower has been installed       globally on your system and the versions are compatible (bower verson 1.7.9 currently runs on my system, so it would be a good    place to start there)
     
 
-3. Gulp build tool
+3. Gulp build tool:
+    This plugin in our case is currently used to build sass for full customization of the ionic UI framework
+    - please run this command to install gulp globally.  
+          npm install --global gulp-cli
+    - gulp dependencies are already extracted within the directory. cd to project directory and run 'gulp sass' to build a modified     ionic.app.scss to see the effect
